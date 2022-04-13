@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider<UsersViewModel>(create: (_)=>UsersViewModel()),
       ],
       child: MaterialApp(        
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           brightness: Brightness.dark,
           primarySwatch: Colors.blue,
